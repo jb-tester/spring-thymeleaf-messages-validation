@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}" />
+</head>
+<body>
+<p th:text="${home_attr1}"></p>
+<p th:text="#{my.prop1}"></p>
+<p th:text="#{my.prop2}"></p>
+
+
+<a th:href="@{/registration}">next</a>
+</body>
+</html>
