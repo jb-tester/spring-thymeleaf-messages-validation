@@ -6,6 +6,7 @@ import org.springframework.validation.ValidationUtils;
 import org.springframework.validation.Validator;
 
 // support references in ValidationUtils methods
+// and also in the Error.rejectValue()
 @Service
 public class PersonValidator implements Validator {
 
